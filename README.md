@@ -23,6 +23,7 @@ Fully ARC compatible now
 How to use:
 ---
 **Creating it**
+
     self.tileView = [[PSTileView alloc] initWithFrame:CGRectZero];
     self.tileView.delegate = self;
     self.tileView.tileViewDelegate = self;
@@ -31,6 +32,7 @@ How to use:
     self.tileView.autoresizingMask = ~UIViewAutoresizingNone;
 
 **Configuring a Template**
+
     // self.template is an NSMutableArray
     [self.template addObject:@[@"A", @"A", @"B", @"C"]];
     [self.template addObject:@[@"A", @"A", @"D", @"D"]];
@@ -43,9 +45,11 @@ How to use:
 
 
 **Reloading Data**
+
     [self.tileView reloadData];
 
 **Delegate and DataSource**
+
     - (void)tileView:(PSTileView *)tileView didSelectCell:(PSTileViewCell *)cell atIndex:(NSInteger)index {
     
     }
