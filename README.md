@@ -8,6 +8,8 @@ I built this as a hack to show my friends. Any suggestions or improvements are v
 
 Coming soon... A fully functional demo app.
 
+[<img src="https://sphotos-a.xx.fbcdn.net/hphotos-ash4/479762_10152342012615565_1974962858_n.jpg" />]()
+
 What is PSTileViewCell?
 ---
 It's the equivalent of UITableViewCell
