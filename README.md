@@ -22,8 +22,8 @@ Fully ARC compatible now
 
 How to use:
 ---
-Here's an example of creating an instance of PSCollectionView
 
+**Creating it**
     self.tileView = [[PSTileView alloc] initWithFrame:CGRectZero];
     self.tileView.delegate = self;
     self.tileView.tileViewDelegate = self;
