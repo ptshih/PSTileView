@@ -22,7 +22,6 @@ Fully ARC compatible now
 
 How to use:
 ---
-
 **Creating it**
     self.tileView = [[PSTileView alloc] initWithFrame:CGRectZero];
     self.tileView.delegate = self;
